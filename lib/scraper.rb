@@ -8,7 +8,7 @@ class Scraper
          @type = type
          @hp = hp
          @db = db
-    
+
   end
 
   def catch_em_all
