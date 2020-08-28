@@ -1,8 +1,7 @@
 class Scraper
   attr_accessor :file, :parsed_file, :all_pokemon, :db
 
-  def initialize(id,name,type,hp,db)
-    def initialize (id, name, type, hp, db)
+  def initialize (id, name, type, hp, db)
          @id = id
          @name = name
          @type = type
