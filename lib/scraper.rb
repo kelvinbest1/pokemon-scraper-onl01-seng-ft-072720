@@ -8,10 +8,7 @@ class Scraper
          @type = type
          @hp = hp
          @db = db
-    self.db = db
-    self.file = File.open("pokemon_index.html")
-    self.parsed_file = Nokogiri::HTML.parse(file)
-    self.all_pokemon = catch_em_all
+    
   end
 
   def catch_em_all
